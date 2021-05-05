@@ -1,0 +1,6 @@
+---
+- name: RabbitMQ Cluster Setup
+  hosts: webservers
+  user: root
+  roles:
+  - rabbit
